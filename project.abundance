@@ -20,8 +20,8 @@
     },
     {
       "atomType": "GitHubMolecule",
-      "x": 0.7,
-      "y": 0.2,
+      "x": 0.2,
+      "y": 0.3,
       "uniqueID": "id-2168",
       "name": "Speed_Controller",
       "topLevel": false,
@@ -733,7 +733,7 @@
     },
     {
       "atomType": "Color",
-      "x": 0.8,
+      "x": 0.5,
       "y": 0.2,
       "uniqueID": "id-2313",
       "ioValues": [
@@ -770,8 +770,8 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.9,
-      "y": 0.4,
+      "x": 0.6,
+      "y": 0.3,
       "uniqueID": "id-2322",
       "ioValues": [
         {
@@ -2828,6 +2828,36 @@
           "unitsKey": "Unitless",
           "fileTypeVersion": 1,
           "lastReloadedFromGithubAt": 1789357596939
+        },
+        {
+          "atomType": "Export",
+          "x": 0.9,
+          "y": 0.2,
+          "uniqueID": "id-2880",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "File Type",
+              "ioValue": "STL",
+              "currentEquation": "STL"
+            },
+            {
+              "name": "Resolution (dpi)",
+              "ioValue": 96
+            },
+            {
+              "name": "Part Name",
+              "ioValue": "Speed Controller Rain Shield",
+              "currentEquation": "Speed Controller Rain Shield"
+            }
+          ],
+          "type": "STL",
+          "resolution": 96,
+          "importIndex": 0,
+          "partName": "Speed Controller Rain Shield"
         }
       ],
       "allConnectors": [
@@ -2945,6 +2975,11 @@
           "ap2Name": "number or geometry",
           "ap1ID": "id-2848",
           "ap2ID": "id-2566"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-2848",
+          "ap2ID": "id-2880"
         },
         {
           "ap2Name": "geometry",
